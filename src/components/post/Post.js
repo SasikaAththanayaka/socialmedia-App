@@ -14,8 +14,20 @@ function Post() {
                         <MoreVert/>
                     </div>
                 </div>
-                <div className="postCenter"></div>
-                <div className="postBottom"></div>
+                <div className="postCenter">
+                    <span className="postText">This is my first Post</span>
+                    <img clssName="postImg" src="./assets/post/1.jpg" alt=""/>
+                </div>
+                <div className="postBottom">
+                    <div className="postBottomLeft">
+                        <img className="likeIcon" src="./assets/1.jpg" alt=""/>
+                        <img className="likeIcon" src="./assets/2.jpg" alt=""/>
+                        <span className="postlikeCounter">22 peopele like this</span>
+                    </div>
+                    <div className="postBottomRight">
+                        <span className="postCommentText">9 Comments</span>
+                    </div>
+                </div>
             </div>
         </div>
     )
