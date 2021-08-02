@@ -17,20 +17,6 @@ function Rightbar() {
                 <ul className="rightbarFriendLiat">
                     <li className="rightbarFriend">
                         <div className="rightProfileImgContainer">
-                            <img className="rightbarProfileImg" src="assets/person/2.jpg" alt=""/>
-                            <span className="rightbarOnline"></span>
-                        </div>
-                        <span className="rightbarUserName">Kasun aravinda</span>
-                    </li>
-                    <li className="rightbarFriend">
-                        <div className="rightProfileImgContainer">
-                            <img className="rightbarProfileImg" src="assets/person/3.jpg" alt=""/>
-                            <span className="rightbarOnline"></span>
-                        </div>
-                        <span className="rightbarUserName">Amal Perera</span>
-                    </li>
-                    <li className="rightbarFriend">
-                        <div className="rightProfileImgContainer">
                             <img className="rightbarProfileImg" src="assets/person/4.jpg" alt=""/>
                             <span className="rightbarOnline"></span>
                         </div>
