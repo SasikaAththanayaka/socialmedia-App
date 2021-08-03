@@ -14,7 +14,7 @@ function Rightbar({profile}) {
                 </div>
                 <img  className="rightbarAd"src="assets/3.jpg" alt=""/>
                 <h4 className="rightbarTitle">Online Friends</h4>
-                <ul className="rightbarFriendLiat">
+                <ul className="rightbarFriendList">
                     <li className="rightbarFriend">
                         <div className="rightProfileImgContainer">
                             <img className="rightbarProfileImg" src="assets/person/4.jpg" alt=""/>
@@ -27,7 +27,7 @@ function Rightbar({profile}) {
         );
     }
 
-    const ProfileRightbar =() =>{
+    const ProfileRightbar=() =>{
         return(
             <>
                 <h4 className="rightbarTitle">User Information</h4>
@@ -70,7 +70,7 @@ function Rightbar({profile}) {
     return (
         <div className="rightbar">
             <div className="rightbarWrapper">
-                <ProfileRightbar/>
+                {profile ? <ProfileRightbar/> : <HomeRight/>}
             </div>
         </div>
     )
