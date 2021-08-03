@@ -1,5 +1,5 @@
 import "./Post.css";
-import {MoreVert} from "@material-ui/icons";
+import {MoreVert,FavoriteRounded,ThumbUpAltRounded} from "@material-ui/icons";
 import {Users} from "../../dummyData";
 import { useState } from "react";
 function Post({post}) {
@@ -30,8 +30,8 @@ function Post({post}) {
                 </div>
                 <div className="postBottom">
                     <div className="postBottomLeft">
-                        <img className="likeIcon" src="./assets/12.jpg" onClick={likeHandler} alt=""/>
-                        <img className="likeIcon" src="./assets/22.jpg" onClick={likeHandler} alt=""/>
+                        <ThumbUpAltRounded htmlColor="blue" className="likeIcon"  onClick={likeHandler}/>
+                        <FavoriteRounded htmlColor="red" className="likeIcon" onClick={likeHandler}/>
                         <span className="postlikeCounter">{like} peopele like this</span>
                     </div>
                     <div className="postBottomRight">

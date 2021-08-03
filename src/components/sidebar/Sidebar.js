@@ -53,19 +53,19 @@ function Sidebar() {
                     </li>
                     <li className="sidebarFriend">
                         <img className="sidebarFriendImg" src="./assets/person/3.jpg" alt=" "/>
-                        <span className="sidebarFriendName">Sasika Harshana</span>
+                        <span className="sidebarFriendName">Kamal silwa</span>
                     </li>
                     <li className="sidebarFriend">
                         <img className="sidebarFriendImg" src="./assets/person/4.jpg" alt=" "/>
-                        <span className="sidebarFriendName">Sasika Harshana</span>
+                        <span className="sidebarFriendName">Sumith Nisantha</span>
                     </li>
                     <li className="sidebarFriend">
                         <img className="sidebarFriendImg" src="./assets/person/5.jpg" alt=" "/>
-                        <span className="sidebarFriendName">Sasika Harshana</span>
+                        <span className="sidebarFriendName">Sunil Thushan</span>
                     </li>
                     <li className="sidebarFriend">
                         <img className="sidebarFriendImg" src="./assets/person/6.png" alt=" "/>
-                        <span className="sidebarFriendName">Sasika Harshana</span>
+                        <span className="sidebarFriendName">Nimesh</span>
                     </li>
                 </ul>
             </div>

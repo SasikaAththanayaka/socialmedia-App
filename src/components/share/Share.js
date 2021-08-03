@@ -1,6 +1,5 @@
 import "./Share.css";
-import {PermMedia,Label,Room,EmojiEmotions} from "@material-ui/icons";
-import { Button } from "@material-ui/core";
+import {PermMedia,Label,Room,EmojiEmotions,ShareOutlined} from "@material-ui/icons";
 
 function Share() {
     return (
@@ -29,8 +28,11 @@ function Share() {
                             <EmojiEmotions htmlColor="goldenrod" className="shareIcon"/>
                             <span className="shareOptionText">Feelings</span>
                         </div>
+                        <div className="shareOption">
+                            <ShareOutlined htmlColor="green" className="shareIcon"/>
+                            <span className="shareOptionText">Share</span>
+                        </div>
                     </div>
-                    <Button  className="shareButton">Share</Button>
                 </div>
             </div>
         </div>
