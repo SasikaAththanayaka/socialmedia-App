@@ -34,8 +34,8 @@ export const Users=[
 export const Posts=[
     {
         id:1,
-        desc:"See",
-        photo:"assets/post/1.jpg",
+        desc:"Pond",
+        photo:"assets/post/2.jpg",
         date:"5 min ago",
         userId:1,
         like:32,
@@ -44,7 +44,7 @@ export const Posts=[
     {
         id:2,
         desc:"Sun set",
-        photo:"assets/post/2.jpg",
+        photo:"assets/post/1.jpg",
         date:"15 min ago",
         userId:6,
         like:32,
